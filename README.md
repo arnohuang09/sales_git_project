@@ -12,7 +12,7 @@ python checks.py
 ```
 
 Use python3 instead if that is your Python 3 launcher. No external packages.
-Expected: 8 order lines, revenue $251.47, and Baseline checks passed.
+Expected: 8 order lines, Total units: 36, revenue $251.47, and Baseline checks passed.
 
 ## Data dictionary
 
