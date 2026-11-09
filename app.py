@@ -1,9 +1,10 @@
-from analysis import load_sales, total_revenue
+from analysis import load_sales, total_revenue, total_units
 
 
 def main():
     rows = load_sales()
     print(f"Order lines: {len(rows)}")
+    print(f"Total units: {total_units(rows)}")
     print(f"Total revenue: ${total_revenue(rows):.2f}")
 
 

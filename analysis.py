@@ -16,8 +16,10 @@ def total_revenue(rows):
 
 
 def total_units(rows):
-    # Day 14: implement without changing the input rows.
-    raise NotImplementedError("Complete the total-units task")
+    total_units = 0
+    for row in rows:
+        total_units += int(row["units"])
+    return total_units
 
 
 def revenue_for_category(rows, category):
